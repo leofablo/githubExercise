@@ -18,10 +18,10 @@ public class Main {
 //
 //    }
 
-    static int findDiffentDate(LocalDate date1, LocalDate date2){
-        Period period = Period.between(date1, date2);
-        return period.getDays();
-    }
+//    static int findDiffentDate(LocalDate date1, LocalDate date2){
+//        Period period = Period.between(date1, date2);
+//        return period.getDays();
+//    }
 
     static String getInnitial(String name){
         StringBuilder result = new StringBuilder("");
@@ -38,14 +38,14 @@ public class Main {
 //        int resultFindAngels = findAngels(80,65);
         String getInnitialResult = getInnitial("Joe Doe");
 
-        LocalDate date1 = LocalDate.of(2024, 3, 19);
-        LocalDate date2 = LocalDate.of(2024, 3, 21);
-        int resultFindDiffentDate = findDiffentDate(date1, date2);
+//        LocalDate date1 = LocalDate.of(2024, 3, 19);
+//        LocalDate date2 = LocalDate.of(2024, 3, 21);
+//        int resultFindDiffentDate = findDiffentDate(date1, date2);
 
         System.out.println(resultCalculateArea);
         System.out.println(resultFindDiameter);
 //        System.out.println(resultFindAngels);
-        System.out.println(resultFindDiffentDate);
+//        System.out.println(resultFindDiffentDate);
         System.out.println(getInnitialResult);
 
     }

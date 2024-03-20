@@ -3,10 +3,10 @@ import java.time.Period;
 
 
 public class Main {
-    static int calculateArea(int width, int height)
-    {
-        return height * width;
-    }
+//    static int calculateArea(int width, int height)
+//    {
+//        return height * width;
+//    }
 
     static int findDiameter(int radius){
         return radius * 2;
@@ -33,7 +33,7 @@ public class Main {
 
     }
     public static void main(String[] args) {
-        int resultCalculateArea = calculateArea(3, 4);
+//        int resultCalculateArea = calculateArea(3, 4);
         int resultFindDiameter = findDiameter(5);
         int resultFindAngels = findAngels(80,65);
         String getInnitialResult = getInnitial("Joe Doe");
@@ -42,7 +42,7 @@ public class Main {
         LocalDate date2 = LocalDate.of(2024, 3, 21);
         int resultFindDiffentDate = findDiffentDate(date1, date2);
 
-        System.out.println(resultCalculateArea);
+//        System.out.println(resultCalculateArea);
         System.out.println(resultFindDiameter);
         System.out.println(resultFindAngels);
         System.out.println(resultFindDiffentDate);

@@ -12,9 +12,9 @@ public class Main {
         return radius * 2;
     }
 
-    static int findAngels(int angel1, int angel2){
+    static int findAngels(int angel13, int angel12){
         int totalAngel = 180;
-        return totalAngel - (angel1 + angel2);
+        return totalAngel - (angel13 + angel12);
 
     }
 
